@@ -16,9 +16,9 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/dji/tello"
-	"gobot.io/x/gobot/platforms/keyboard"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/platforms/dji/tello"
+	"github.com/rich1111/gobot/platforms/keyboard"
 )
 
 func resetDronePostion(drone *tello.Driver) {

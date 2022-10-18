@@ -16,8 +16,8 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/dji/tello"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/platforms/dji/tello"
 )
 
 func main() {

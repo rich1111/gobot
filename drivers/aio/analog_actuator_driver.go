@@ -3,7 +3,7 @@ package aio
 import (
 	"strconv"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 // AnalogActuatorDriver represents an analog actuator

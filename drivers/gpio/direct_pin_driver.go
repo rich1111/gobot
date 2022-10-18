@@ -3,7 +3,7 @@ package gpio
 import (
 	"strconv"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 // DirectPinDriver represents a GPIO pin

@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/sigurn/crc8"
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 const (

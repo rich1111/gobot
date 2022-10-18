@@ -3,7 +3,7 @@ package tello
 import (
 	"testing"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/rich1111/gobot/gobottest"
 )
 
 func TestMinidroneValidatePitchWhenEqualOffset(t *testing.T) {

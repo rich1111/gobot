@@ -1,6 +1,6 @@
 package i2c
 
-import "gobot.io/x/gobot"
+import "github.com/rich1111/gobot"
 
 const hmc6352Address = 0x21
 

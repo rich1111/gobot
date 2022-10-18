@@ -4,7 +4,7 @@ import (
 	"time"
 	"errors"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 const bh1750Address = 0x23

@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
-	"gobot.io/x/gobot/platforms/sphero/ollie"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/platforms/ble"
+	"github.com/rich1111/gobot/platforms/sphero/ollie"
 )
 
 func main() {

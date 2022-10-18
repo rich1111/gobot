@@ -5,10 +5,10 @@
 package main
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/digispark"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/api"
+	"github.com/rich1111/gobot/drivers/gpio"
+	"github.com/rich1111/gobot/platforms/digispark"
 )
 
 func main() {

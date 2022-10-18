@@ -8,7 +8,7 @@ import (
 	"time"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/rich1111/gobot/gobottest"
 )
 
 func initTestMaster() *Master {

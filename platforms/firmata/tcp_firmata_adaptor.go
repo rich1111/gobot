@@ -4,7 +4,7 @@ import (
 	"io"
 	"net"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 // TCPAdaptor represents a TCP based connection to a microcontroller running

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
-	"gobot.io/x/gobot/platforms/sphero"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/gobottest"
+	"github.com/rich1111/gobot/platforms/sphero"
 )
 
 var _ gobot.Driver = (*Driver)(nil)

@@ -3,7 +3,7 @@ package sphero
 import (
 	"io"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 
 	"go.bug.st/serial"
 )

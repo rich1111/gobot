@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/aio"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/drivers/aio"
 )
 
 // All address pins are connected to ground.

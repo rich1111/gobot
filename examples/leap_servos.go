@@ -5,10 +5,10 @@
 package main
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/firmata"
-	"gobot.io/x/gobot/platforms/leap"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/drivers/gpio"
+	"github.com/rich1111/gobot/platforms/firmata"
+	"github.com/rich1111/gobot/platforms/leap"
 )
 
 // Video: https://www.youtube.com/watch?v=ayNMyUfdAqc

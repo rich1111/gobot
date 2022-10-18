@@ -7,10 +7,10 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/aio"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/beaglebone"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/drivers/aio"
+	"github.com/rich1111/gobot/drivers/gpio"
+	"github.com/rich1111/gobot/platforms/beaglebone"
 )
 
 func main() {

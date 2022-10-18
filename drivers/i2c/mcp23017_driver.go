@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 // default address for device when a2/a1/a0 pins are all tied to ground

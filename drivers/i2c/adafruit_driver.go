@@ -6,7 +6,7 @@ import (
 	"math"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 // AdafruitDirection declares a type for specification of the motor direction

@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/sigurn/crc8"
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 // SHT3xAddressA is the default address of device

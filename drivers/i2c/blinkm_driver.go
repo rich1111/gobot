@@ -3,7 +3,7 @@ package i2c
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 const blinkmAddress = 0x09

@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/drivers/spi"
-	"gobot.io/x/gobot/gobottest"
-	"gobot.io/x/gobot/sysfs"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/drivers/gpio"
+	"github.com/rich1111/gobot/drivers/i2c"
+	"github.com/rich1111/gobot/drivers/spi"
+	"github.com/rich1111/gobot/gobottest"
+	"github.com/rich1111/gobot/sysfs"
 )
 
 // make sure that this Adaptor fullfills all the required interfaces

@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/rich1111/gobot/gobottest"
 )
 
 func TestBasicAuth(t *testing.T) {

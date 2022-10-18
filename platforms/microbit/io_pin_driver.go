@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strconv"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/platforms/ble"
 )
 
 // IOPinDriver is the Gobot driver for the Microbit's built-in digital and

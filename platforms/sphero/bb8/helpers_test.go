@@ -3,7 +3,7 @@ package bb8
 import (
 	"sync"
 
-	"gobot.io/x/gobot/platforms/ble"
+	"github.com/rich1111/gobot/platforms/ble"
 )
 
 var _ ble.BLEConnector = (*bleTestClientAdaptor)(nil)

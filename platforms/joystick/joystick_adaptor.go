@@ -3,7 +3,7 @@ package joystick
 import (
 	"errors"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 
 	"github.com/veandco/go-sdl2/sdl"
 )

@@ -16,8 +16,8 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/particle"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/platforms/particle"
 )
 
 func main() {

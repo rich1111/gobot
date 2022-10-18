@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
-	common "gobot.io/x/gobot/platforms/mavlink/common"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/gobottest"
+	common "github.com/rich1111/gobot/platforms/mavlink/common"
 )
 
 var _ gobot.Driver = (*Driver)(nil)

@@ -1,6 +1,6 @@
 package gpio
 
-import "gobot.io/x/gobot"
+import "github.com/rich1111/gobot"
 
 // RgbLedDriver represents a digital RGB Led
 type RgbLedDriver struct {

@@ -20,8 +20,8 @@
 package main
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/parrot/bebop"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/platforms/parrot/bebop"
 )
 
 func main() {

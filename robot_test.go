@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/rich1111/gobot/gobottest"
 )
 
 func TestRobotConnectionEach(t *testing.T) {

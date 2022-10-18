@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"go.bug.st/serial"
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 var _ gobot.Adaptor = (*Adaptor)(nil)

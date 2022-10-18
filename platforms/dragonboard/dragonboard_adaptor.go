@@ -6,9 +6,9 @@ import (
 	"sync"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/sysfs"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/drivers/i2c"
+	"github.com/rich1111/gobot/sysfs"
 )
 
 // Adaptor represents a Gobot Adaptor for a DragonBoard 410c

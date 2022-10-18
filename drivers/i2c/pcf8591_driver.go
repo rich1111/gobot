@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/rich1111/gobot"
 )
 
 // PCF8591 supports addresses from 0x48 to 0x4F

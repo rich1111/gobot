@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"go.bug.st/serial"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/platforms/firmata/client"
+	"github.com/rich1111/gobot"
+	"github.com/rich1111/gobot/drivers/i2c"
+	"github.com/rich1111/gobot/platforms/firmata/client"
 )
 
 type firmataBoard interface {
