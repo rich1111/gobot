@@ -86,14 +86,14 @@ func (p *PWMPin) Unexport() (err error) {
 
 // Enable writes value to pwm enable path
 func (p *PWMPin) Enable(enable bool) (err error) {
-	if p.enabled != enable {
-		p.enabled = enable
-		enableVal := 0
-		if enable {
-			enableVal = 1
-		}
-		_, err = p.write(p.pwmEnablePath(), []byte(fmt.Sprintf("%v", enableVal)))
+	//if p.enabled != enable {
+	p.enabled = enable
+	enableVal := 0
+	if enable {
+		enableVal = 1
 	}
+	_, err = p.write(p.pwmEnablePath(), []byte(fmt.Sprintf("%v", enableVal)))
+	//}
 	return
 }
 
